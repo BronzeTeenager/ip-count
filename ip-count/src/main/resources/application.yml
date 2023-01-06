@@ -1,0 +1,30 @@
+server:
+  port: 9999
+
+#控制是否输出图片验证码
+checkCode: true
+
+#公告
+notice:
+  msg: "本次更新在线用户统计\n需要各位重新获取链接\n表示歉意所有注册过的用户赠送终身会员"
+  # 开关 0 开启
+  status: "0"
+
+#数据源
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ip-count?useUnicode=true&characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2B8
+    username: root
+    password: haosql
+  redis:
+    host: 127.0.0.1
+    port: 6379
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb_
+      id-type: auto #设置id自增策略
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #设置sql输出
