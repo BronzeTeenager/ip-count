@@ -1,5 +1,7 @@
 package top.api.interceptor;
 
+
+
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -35,6 +37,14 @@ public class IpInterceptor implements HandlerInterceptor {
         if (StringUtils.isNotBlank(ip)) {
             String[] ips = ip.split(",");
             ip = ips[0];
+        }
+
+        // 使用自带方法获取ip,如果不一致,优先使用自带的
+        String _ip = request.getRemoteAddr();
+        if (_ip != null){
+            if (! ip.equals(_ip)){
+                ip = _ip;
+            }
         }
 
         IpInfo ipInfo = IpUtils.getAddress(ip);

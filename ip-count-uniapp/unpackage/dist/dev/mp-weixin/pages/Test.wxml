@@ -1,0 +1,1 @@
+<button bindtap="{{a}}" bindlongpress="{{b}}">点击登录</button><view class="content"><luanqing-inputdialog wx:if="{{e}}" class="r" u-r="textModal" bindcallback="{{d}}" u-i="4b89cf98-0" bind:__l="__l" u-p="{{e}}"></luanqing-inputdialog></view>

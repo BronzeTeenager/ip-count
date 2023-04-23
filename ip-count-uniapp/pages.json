@@ -1,0 +1,113 @@
+{
+	"pages": [{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "login",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register",
+			"style": {
+				"navigationBarTitleText": "register",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/resetPassword",
+			"style": {
+				"navigationBarTitleText": "resetPassword",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/userHome",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "userHome",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/home",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "home",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/appInfo",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "appInfo",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/ipInfo",
+			"style": {
+				"enablePullDownRefresh": true,
+
+				"navigationBarTitleText": "ipInfo",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/provinceInfo",
+			"style": {
+				"enablePullDownRefresh": true,
+
+				"navigationBarTitleText": "provinceInfo",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/trendInfo",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "trendInfo",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/instructions",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "使用说明",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Test",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "使用说明",
+				"navigationBarBackgroundColor": "#07c160",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/webview",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "ip-count",
+		"navigationBarBackgroundColor": "#07c160"
+	}
+}

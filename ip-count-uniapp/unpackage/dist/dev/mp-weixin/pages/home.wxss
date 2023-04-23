@@ -1,0 +1,116 @@
+/*!
+ * Site:http://www.diygw.com DIYGW可视化设计一键生成源码
+ * Author:邓志锋 280160522
+ */
+/**
+ * 修改common/diygw-ui/index.scss 可以取消相关组件样式
+ * 修改common/diygw-ui/iconfont.scss 如果发布APP可能会图标字体找不到的问题，加上https测试
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.search1-clz.data-v-86d91950 {
+  margin-left: 5px;
+  width: calc(100% - 5px - 5px) !important;
+  margin-top: 17px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+.noticebar-clz.data-v-86d91950 {
+  border-bottom-left-radius: 6px;
+  overflow: hidden;
+  font-size: 11px !important;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  font-style: italic;
+}
+.flex4-clz.data-v-86d91950 {
+  margin-left: 8px;
+  border-bottom-left-radius: 6px;
+  box-shadow: 0px 1px 3px 3px rgba(111, 111, 111, 0.18);
+  z-index: 1000;
+  overflow: hidden;
+  width: calc(100% - 8px - 8px) !important;
+  border-top-left-radius: 6px;
+  margin-top: 8px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+.image1-clz.data-v-86d91950 {
+  margin-left: 5px;
+  border-bottom-left-radius: 6px;
+  overflow: hidden;
+  width: calc(33.3333333333% - 5px - 5px) !important;
+  border-top-left-radius: 6px;
+  margin-top: 5px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.flex5-clz.data-v-86d91950 {
+  padding-top: 0px;
+  z-index: 1000;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  padding-right: 5px;
+}
+.text5-clz.data-v-86d91950 {
+  margin-left: 5px;
+  width: calc(100% - 5px - 5px) !important;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+.text6-clz.data-v-86d91950 {
+  margin-left: 5px;
+  width: calc(100% - 5px - 0px) !important;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+.flex6-clz.data-v-86d91950 {
+  z-index: 1000;
+}
+.text7-clz.data-v-86d91950 {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.text8-clz.data-v-86d91950 {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.floatbar-clz.data-v-86d91950 {
+  bottom: 137px;
+  width: 82px !important;
+  right: 29px;
+}
+.grid-icon-clz.data-v-86d91950 {
+  width: 55px !important;
+  height: 55px !important;
+  font-size: 51px !important;
+}
+.container.data-v-86d91950 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container.data-v-86d91950 {
+  padding-bottom: 80px;
+}

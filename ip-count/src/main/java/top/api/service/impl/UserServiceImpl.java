@@ -80,7 +80,6 @@ public class UserServiceImpl extends ServiceImpl<UserDao, User> implements UserS
 
         msgUser.setMsg("制作不易,请各位手下留情,跪谢!");
 
-
         return new Msg(Code.CODE_OK, "登录成功!", msgUser);
     }
 

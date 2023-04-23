@@ -1,0 +1,258 @@
+/*!
+ * Site:http://www.diygw.com DIYGW可视化设计一键生成源码
+ * Author:邓志锋 280160522
+ */
+/**
+ * 修改common/diygw-ui/index.scss 可以取消相关组件样式
+ * 修改common/diygw-ui/iconfont.scss 如果发布APP可能会图标字体找不到的问题，加上https测试
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.flex1-clz.data-v-3e432fc3 {
+  margin-left: 10px;
+  width: calc(100% - 10px - 10px) !important;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.image-clz.data-v-3e432fc3 {
+  margin-left: 5px;
+  border: 1px solid rgba(240, 240, 240, 0.17);
+  border-bottom-left-radius: 30px;
+  box-shadow: 0px 1px 3px rgba(242, 242, 242, 0.49);
+  overflow: hidden;
+  border-top-left-radius: 30px;
+  margin-top: 0px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+.flex2-clz.data-v-3e432fc3 {
+  flex: 1;
+}
+.text1-clz.data-v-3e432fc3 {
+  margin-left: 0px;
+  font-weight: bold;
+  font-size: 16px !important;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-right: 0px;
+}
+.flex5-clz.data-v-3e432fc3 {
+  background-color: #dbe4e9;
+  padding-top: 0px;
+  border-bottom-left-radius: 20px;
+  overflow: hidden;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-right: 3px;
+}
+.icon-clz.data-v-3e432fc3 {
+  color: #979797;
+}
+.icon.data-v-3e432fc3 {
+  font-size: 17px;
+}
+.list1-clz.data-v-3e432fc3 {
+  background-color: #0f8f8f;
+  margin-left: 5px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+  width: calc(100% - 5px - 5px) !important;
+  border-top-left-radius: 10px;
+  margin-top: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: -3px;
+  margin-right: 5px;
+}
+.flex8-clz.data-v-3e432fc3 {
+  padding-top: 10px;
+  border-bottom-left-radius: 8px;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-top-right-radius: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
+  overflow: hidden;
+  width: calc(100% - 10px - 10px) !important;
+  border-top-left-radius: 8px;
+  margin-top: 15px;
+  border-bottom-right-radius: 8px;
+  background-image: linear-gradient(326deg, #30334b 0%, #343858 33%, #3c3f55 33%, #30334b 100%);
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+.text6-clz.data-v-3e432fc3 {
+  margin-left: 0px;
+  flex: 1;
+  font-size: 14px !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 0px;
+}
+.text8-clz.data-v-3e432fc3 {
+  padding-top: 5px;
+  border-bottom-left-radius: 30px;
+  padding-left: 15px;
+  font-size: 14px !important;
+  padding-bottom: 5px;
+  border-top-right-radius: 30px;
+  margin-right: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+  border-top-left-radius: 30px;
+  margin-top: 5px;
+  border-bottom-right-radius: 30px;
+  background-image: linear-gradient(135deg, #fccf31 10%, #f55555 100%);
+  margin-bottom: 5px;
+  padding-right: 15px;
+}
+.flex3-clz.data-v-3e432fc3 {
+  padding-top: 10px;
+  border-bottom-left-radius: 8px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-top-right-radius: 8px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  box-shadow: 0px 0px 18px rgba(142, 137, 137, 0.24);
+  overflow: hidden;
+  width: calc(100% - 10px - 10px) !important;
+  border-top-left-radius: 8px;
+  margin-top: 15px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+.text4-clz.data-v-3e432fc3 {
+  font-weight: bold;
+  flex: 1;
+  font-size: 14px !important;
+}
+.grid-item-clz.data-v-3e432fc3 {
+  font-size: 12px;
+  margin: 0px;
+  padding: 10px;
+}
+.grid-icon-clz.data-v-3e432fc3 {
+  width: 40px;
+  height: 40px;
+  font-size: 36px !important;
+}
+.grid-badge-0.data-v-3e432fc3 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.flex4-clz.data-v-3e432fc3 {
+  padding-top: 10px;
+  border-bottom-left-radius: 8px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-top-right-radius: 8px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  box-shadow: 0px 0px 18px rgba(142, 137, 137, 0.24);
+  overflow: hidden;
+  width: calc(100% - 10px - 10px) !important;
+  border-top-left-radius: 8px;
+  margin-top: 15px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+.text3-clz.data-v-3e432fc3 {
+  font-weight: bold;
+  flex: 1;
+  font-size: 14px !important;
+}
+.grid2-item-clz.data-v-3e432fc3 {
+  font-size: 12px;
+  margin: 0px;
+  padding: 10px;
+}
+.grid2-icon-clz.data-v-3e432fc3 {
+  width: 30px;
+  height: 30px;
+  font-size: 26px !important;
+}
+.flex6-clz.data-v-3e432fc3 {
+  padding-top: 15px;
+  border-bottom-left-radius: 8px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  border-top-right-radius: 8px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  box-shadow: 0px 0px 18px rgba(142, 137, 137, 0.24);
+  overflow: hidden;
+  width: calc(100% - 10px - 10px) !important;
+  border-top-left-radius: 8px;
+  margin-top: 15px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+.text7-clz.data-v-3e432fc3 {
+  font-weight: bold;
+  flex: 1;
+  font-size: 14px !important;
+}
+.icon3.data-v-3e432fc3 {
+  font-size: 16px;
+}
+.flex-clz.data-v-3e432fc3 {
+  padding-top: 15px;
+  border-bottom-left-radius: 8px;
+  padding-left: 10px;
+  padding-bottom: 15px;
+  border-top-right-radius: 8px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  margin-left: 10px;
+  box-shadow: 0px 0px 18px rgba(142, 137, 137, 0.24);
+  overflow: hidden;
+  width: calc(100% - 10px - 10px) !important;
+  border-top-left-radius: 8px;
+  margin-top: 15px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+}
+.text-clz.data-v-3e432fc3 {
+  font-weight: bold;
+  flex: 1;
+  font-size: 14px !important;
+}
+.icon1.data-v-3e432fc3 {
+  font-size: 16px;
+}
+.container.data-v-3e432fc3 {
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #f4f4f4;
+  font-size: 12px;
+}
+.container.data-v-3e432fc3 {
+  padding-bottom: 80px;
+}

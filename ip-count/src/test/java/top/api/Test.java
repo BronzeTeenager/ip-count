@@ -84,8 +84,34 @@ public class Test {
 
     @org.junit.jupiter.api.Test
     void md5(){
-        String md5 = MD5Utils.stringToMD5("123456");
-        System.out.println(md5);
+        Map<String,String> map = new HashMap<>();
+        map.put("name1","zs");
+        map.put("name2","zs");
+        map.put("name3","zs");
+
+        System.out.println(map.toString());
+        Set<String> keySet = map.keySet();
+        for (String key : keySet) {
+            System.out.println(map.get(key));
+        }
+        System.out.println("===========================");
+        Set<Map.Entry<String, String>> entries = map.entrySet();
+        for (Map.Entry<String, String> entry : entries) {
+            System.out.println(entry.getValue());
+        }
+
+        map.clear();
+    }
+
+    @org.junit.jupiter.api.Test
+    void ipUtil(){
+        long qt = System.currentTimeMillis();
+        for (int i = 0; i < 10000; i++) {
+            IpInfo address = IpUtils.getAddress("185.136.65.123");
+            //System.out.println(address);
+        }
+        long ht = System.currentTimeMillis();
+        System.out.println("耗时: " + (ht - qt) + "  mss");
     }
 }
 

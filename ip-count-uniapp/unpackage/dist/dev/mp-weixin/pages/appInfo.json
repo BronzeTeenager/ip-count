@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "APPInfo",
+  "navigationBarBackgroundColor": "#07c160",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "diy-navbar": "../components/diy-navbar/diy-navbar"
+  }
+}

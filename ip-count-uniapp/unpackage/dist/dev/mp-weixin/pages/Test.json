@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "luanqing-inputdialog": "../uni_modules/luanqing-inputdialog/components/luanqing-inputdialog/luanqing-inputdialog"
+  }
+}

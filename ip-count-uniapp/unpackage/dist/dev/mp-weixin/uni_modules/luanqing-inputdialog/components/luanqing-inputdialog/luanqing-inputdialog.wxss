@@ -1,0 +1,138 @@
+
+.line_view{
+		width: calc(70vw);
+		height: 1rpx;
+		background-color: #DDD;
+}
+.line_ver{
+		height: 80rpx;
+		width: 1rpx;
+		background-color: #DDD;
+}
+.btn_view{
+		width: calc(70vw);
+		height: 80rpx;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+}
+.cancel_confirm{
+		color: #555;
+		font-size: 0.95rem;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: calc(34vw);
+		height: 80rpx;
+}
+.cancel_btn{
+		color: #999;
+		font-size: 0.95rem;
+		font-weight: bold;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: calc(34vw);
+		height: 80rpx;
+}
+.radio{
+		margin-bottom: 15rpx;
+		font-size: 0.80rem;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+}
+.margin{
+		margin-left: 3rpx;
+		margin-right: 3rpx;
+}
+.dialog_content{
+		padding-left: 18rpx;
+		padding-right: 18rpx;
+		font-size: 0.85rem;
+		margin-top: 10rpx;
+		margin-bottom: 10rpx;
+}
+.incontent{
+		background-color: #FFF;
+		border-radius: 15rpx;
+		width: calc(70vw);
+		min-height: calc(40vw);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+}
+	/* .incontent-large{
+		background-color: #FFF;
+		border-radius: 15rpx;
+		width: calc(80vw);
+		min-height: calc(45vw);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	} */
+.input_area_style{
+		width: 85%;
+		height: 125rpx;
+		margin-top: 20rpx;
+		margin-bottom: 10rpx;
+		padding: 8rpx 10rpx;
+		border-radius: 10rpx;
+		border: 1rpx solid #BBB;
+		font-size: 0.85rem;
+}
+.input_style{
+		width: 65%;
+		padding: 8rpx 10rpx;
+		border-radius: 10rpx;
+		border: 1rpx solid #BBB;
+		font-size: 0.85rem;
+}
+.content{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+.margin_bottom{
+		margin-bottom: 12rpx;
+}
+.text_center{
+		text-align: center;
+}
+.modal{
+		z-index: 999;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background:rgba(0, 0, 0, 0.4);
+	    filter:alpha(opacity=60);  /*设置透明度为60%*/
+		 /*非IE浏览器下设置透明度为60%*/
+		/* opacity:0.6; */
+		width: calc(100vw);
+		height: calc(100vh);
+		border: 1rpx solid #AAA;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+.uni-flex-layout-row{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-around;
+}
+.modal_title{
+		color: #222;
+		margin-top: 10rpx;
+		margin-bottom: 20rpx;
+		font-size: 1.0rem;
+		font-weight: bold;
+}

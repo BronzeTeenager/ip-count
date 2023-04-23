@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "async-validator": "^1.11.5",
+    "element-ui": "^2.15.10",
+    "i": "^0.3.7",
+    "npm": "^8.19.3"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "js-md5": "^0.7.3"
+  }
+}

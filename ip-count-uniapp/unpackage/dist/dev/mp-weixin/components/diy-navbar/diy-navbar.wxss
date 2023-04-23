@@ -1,0 +1,26 @@
+
+.diy-navbar-tool {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+}
+.diy-navbar-tool-inner {
+	    display: flex;
+	    flex-direction: row;
+	    align-items: center;
+	    justify-content: space-between;
+	    padding: 3px 7px;
+}
+.diy-navbar-tool-solid{
+		border:1px solid #edeef0;
+		border-width: 1rpx;
+		border-radius: 100px;
+}
+.diy-navbar-split{
+		margin: 1px 8px 0px;
+		border-left: 1px solid #edeef0 !important;
+		height: 14px;
+}
